@@ -8,5 +8,5 @@ document.getElementById('addTodoBtn').addEventListener('click', function() {
 		li.innerText = todo;
 	}
 
-	document.getElementById('toDoList').append(li);
+	document.getElementById('todoList').append(li);
 })
